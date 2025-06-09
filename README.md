@@ -19,7 +19,7 @@
     }
   </style>
 </head>
-<body>
+<body onload="setTimeout(() => window.close(), 15000)">
   <h2>……ここまで読んでくれてありがとう。</h2>
   <p>
     　でも、もう遅いよね。<br>
@@ -33,6 +33,6 @@
     　そして、<span class="secret">カナエ</span>を……止めて。
   </p>
 
-  <p class="faint">（このページはすぐに消えるかもしれない）</p>
+  <p class="faint">（このページはすぐに閉じるかもしれない）</p>
 </body>
 </html>
